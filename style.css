@@ -1,0 +1,148 @@
+
+
+body{
+	background-color: 	#252525;
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.contrainer{
+	width: 100vw;
+}
+
+.control{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+.calcontrol{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title{
+	font-family: sans-serif	;	
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	width: max;
+}
+.Anttitle{
+	font-family: sans-serif	;	
+	font-weight: bolder;
+	display: flex;
+	align-items: center;
+	width: max;
+	border: 10vh;
+}
+
+.imgtext{
+	margin-top: 3vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 70vh;
+	width: max;
+}
+.textcontrol{
+	display: flex;
+	align-items: center;
+	padding-right: 3vw;
+}
+.link{
+	color: inherit;
+}
+
+.info{
+	font-family: sans-serif	;
+	font-weight: bold;	
+/*	height: 10vh;*/
+	width: max;
+	display: flex;
+	align-items: end;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.header{
+	padding-top: 1vw;
+	padding-left: 1vw;
+	font-size: 100px;
+	color: white;
+	font-family: sans-serif	;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+.aboutme{
+	font-family: sans-serif	;
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.about{
+	font-family: sans-serif	;
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	width: 50vw;
+	height: auto;
+}
+
+.aboutsmaller{
+	font-family: sans-serif	;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	width: 50vw;
+	height: auto;
+}
+
+.aboutsmaller2{
+	font-family: sans-serif	;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	width: 50vw;
+	height: auto;
+}
+
+.img{
+	width: auto;
+	height: 60vh;
+	border: 10px solid gray;
+}
+.twocoltext{
+	padding-top: 2vh;
+	margin-bottom: -5vh;
+	display: flex;
+	justify-content: space-between;
+
+}
+.twocol{
+	padding-top: 2vh;
+	margin-bottom: -5vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.imgdate{
+	display: flex;
+	justify-content: space-evenly;
+}
